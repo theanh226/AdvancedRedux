@@ -4,8 +4,8 @@ import CommentList from './CommentList';
 
 export default () => {
     return (
-        <div class="container">
-            <div class="part-component">
+        <div className="container">
+            <div className="part-component">
                 <CommentBox></CommentBox>
                 <CommentList></CommentList>
             </div>
