@@ -12,11 +12,9 @@ beforeEach(() => {
 });
 
 it('show a comment box', () => {
-
     expect(wrapper.find(CommentBox).length).toEqual(1);
 });
 
 it('show a comment List', () => {
-
     expect(wrapper.find(CommentList).length).toEqual(1);
 });
