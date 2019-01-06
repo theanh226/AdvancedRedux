@@ -5,10 +5,12 @@ import { createStore } from 'redux';
 import reducers from 'reducers';
 
 export default ({ children, initialState = {} }) => {
+    /* eslint-disable no-underscore-dangle */
     const store = createStore(
         reducers,
-        initialState,
+        initialState
     );
+    /* eslint-enable */
 
     return <Provider store={store}>{children}</Provider>;
 };
