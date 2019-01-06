@@ -8,7 +8,7 @@ import CommentBox from '../CommentBox';
 let wrapped;
 
 beforeEach(() => {
-    wrapped = mount( < CommentBox / > );
+    wrapped = mount(<CommentBox />);
 });
 
 
