@@ -1,7 +1,8 @@
-import commentsReducer from 'reducers/comments';
+import commentsReducer from './../comments';
 import { SAVE_COMMENT } from './../../actions/type';
 
 it('handles actions of type SAVE_COMMENT', () => {
+
     const action = {
         type: SAVE_COMMENT,
         payload: 'New Comment'
